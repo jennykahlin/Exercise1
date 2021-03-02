@@ -17,7 +17,3 @@ jobs:
       run: sh compile_executable.sh
     - name: run executable
       run: ./app.exe
-
-      run: make check
-    - name: make distcheck
-      run: make distcheck
